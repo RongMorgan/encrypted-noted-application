@@ -1,9 +1,13 @@
-import os
-from encryption import encrypt_note, decrypt_note
-from kdf import derive_key
-from hashing import save_password_hash, verify_password
-from storage import save_encrypted_note, load_encrypted_note, list_notes, delete_note
-from utils import load_master_config, create_master_config
+from src.encryption import encrypt_note, decrypt_note
+from src.kdf import derive_key
+from src.hashing import save_password_hash, verify_password
+from src.storage import (
+    save_encrypted_note,
+    load_encrypted_note,
+    list_notes,
+    delete_note
+)
+from src.storage import load_master_config
 
 
 def require_master_password():
