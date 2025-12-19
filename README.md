@@ -19,8 +19,7 @@ All notes are securely encrypted using **AES-256** and a master password.
 
 ## Project Structure
 
-```
-
+```text
 Encrypted_Note_Application_Code/
 ├── docs/                 # Project documentation (optional)
 ├── notes/                # Encrypted notes (created at runtime)
@@ -32,8 +31,7 @@ Encrypted_Note_Application_Code/
 │   ├── main.py
 │   └── storage.py
 └── tests/                # Optional tests
-
-````
+```
 
 ---
 
